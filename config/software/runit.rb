@@ -15,15 +15,15 @@
 #
 
 name 'runit'
-default_version '2.2.0'
+default_version '2.3.1'
 
 license 'BSD-3-Clause'
 license_file '../package/COPYING'
 
 skip_transitive_dependency_licensing true
 
-version '2.2.0' do
-  source sha256: '95ef4d2868b978c7179fe47901e5c578e11cf273d292bd6208bd3a7ccb029290'
+version '2.3.1' do
+  source sha256: '634f23c8c4d1d440043be0fe928ddf904626289e97bfe7c5826e93aaf2cc6fe9'
 end
 
 source url: "https://smarden.org/runit/runit-#{version}.tar.gz"
@@ -34,7 +34,7 @@ build do
   # Patch runit to not consider status of log service associated with a service
   # on determining output of status command. For details, check
   # https://gitlab.com/gitlab-org/omnibus-gitlab/issues/4008
-  patch source: 'log-status.patch'
+  # patch source: 'log-status.patch'
 
   env = with_standard_compiler_flags(with_embedded_path)
 

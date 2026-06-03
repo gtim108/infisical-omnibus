@@ -19,7 +19,7 @@
 # - Updated the code to align with Infisical's requirements
 
 name 'jemalloc'
-default_version '5.3.0'
+default_version 'dev'
 
 license 'jemalloc'
 license_file 'COPYING'
