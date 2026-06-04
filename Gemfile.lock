@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/gtim108/omnibus-software.git
-  revision: 5a5a69e07889aed0021b54889aa611e22aaafac3
+  revision: 79489624db5fa5ebb71e9cfd7945ac8780eda242
   specs:
     omnibus-software (24.6.324)
       ffi (>= 1.17.0)
