@@ -1,5 +1,6 @@
 name 'infisical'
-default_version "v#{Build.version}"
+default_version "main"
+# default_version "v#{Build.version}"
 # default_version "v0.150.0-nightly-20250916.1"
 
 source github: 'gtim108/infisical'
